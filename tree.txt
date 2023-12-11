@@ -1,0 +1,133 @@
+.
+├── LICENSE
+├── client
+│   ├── LICENSE
+│   ├── bun.lockb
+│   ├── components.json
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── public
+│   │   ├── assets
+│   │   │   ├── atlases
+│   │   │   │   ├── atlas.json
+│   │   │   │   └── atlas.png
+│   │   │   ├── paper.png
+│   │   │   ├── rock.png
+│   │   │   ├── scissors.png
+│   │   │   ├── texture.json
+│   │   │   ├── texture.png
+│   │   │   └── tilesets
+│   │   │       ├── land.png
+│   │   │       └── world.png
+│   │   ├── paper.png
+│   │   ├── rock.png
+│   │   ├── scissors.png
+│   │   ├── texture.png
+│   │   └── vite.svg
+│   ├── readme.md
+│   ├── src
+│   │   ├── App.tsx
+│   │   ├── assets
+│   │   │   ├── paper.png
+│   │   │   ├── rock.png
+│   │   │   ├── scissors.png
+│   │   │   ├── texture.json
+│   │   │   ├── texture.png
+│   │   │   ├── tilesets
+│   │   │   │   └── land.png
+│   │   │   └── world.ts
+│   │   ├── dojo
+│   │   │   ├── contractComponents.ts
+│   │   │   ├── createBurner.ts
+│   │   │   ├── createClientComponents.ts
+│   │   │   ├── createNetworkLayer.ts
+│   │   │   ├── createSystemCalls.ts
+│   │   │   ├── setup.ts
+│   │   │   ├── setupNetwork.ts
+│   │   │   ├── types.ts
+│   │   │   ├── utils
+│   │   │   │   └── index.ts
+│   │   │   └── world.ts
+│   │   ├── index.css
+│   │   ├── main.tsx
+│   │   ├── phaser
+│   │   │   ├── config
+│   │   │   │   ├── configurePhaser.ts
+│   │   │   │   └── constants.ts
+│   │   │   ├── index.ts
+│   │   │   ├── phaserLayer.tsx
+│   │   │   └── systems
+│   │   │       ├── camera.ts
+│   │   │       ├── controls.ts
+│   │   │       ├── mapSystem.ts
+│   │   │       ├── move.ts
+│   │   │       └── registerSystems.ts
+│   │   ├── store.ts
+│   │   ├── ui
+│   │   │   ├── ClickWrapper.tsx
+│   │   │   ├── CreateAccount.tsx
+│   │   │   ├── EnergyLevels.tsx
+│   │   │   ├── Spawn.tsx
+│   │   │   ├── button.tsx
+│   │   │   ├── hooks
+│   │   │   │   ├── useDojo.tsx
+│   │   │   │   ├── useNetworkLayer.tsx
+│   │   │   │   ├── usePhaserLayer.tsx
+│   │   │   │   └── usePromiseValue.ts
+│   │   │   ├── index.tsx
+│   │   │   └── lib
+│   │   │       └── utils.ts
+│   │   └── vite-env.d.ts
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   ├── tsconfig.node.json
+│   └── vite.config.ts
+├── contracts
+│   ├── LICENSE
+│   ├── README.md
+│   ├── Scarb.lock
+│   ├── Scarb.toml
+│   ├── scripts
+│   │   └── default_auth.sh
+│   ├── src
+│   │   ├── actions.cairo
+│   │   ├── config.cairo
+│   │   ├── interface.cairo
+│   │   ├── lib.cairo
+│   │   ├── models.cairo
+│   │   ├── testing.cairo
+│   │   └── utils.cairo
+│   └── target
+│       ├── CACHEDIR.TAG
+│       ├── dev
+│       │   ├── emojiman-actions.json
+│       │   ├── emojiman-base.json
+│       │   ├── emojiman-energy.json
+│       │   ├── emojiman-executor.json
+│       │   ├── emojiman-game_data.json
+│       │   ├── emojiman-player_address.json
+│       │   ├── emojiman-player_at_position.json
+│       │   ├── emojiman-player_id.json
+│       │   ├── emojiman-position.json
+│       │   ├── emojiman-rps_type.json
+│       │   ├── emojiman-world.json
+│       │   └── manifest.json
+│       └── release
+│           ├── emojiman-actions.json
+│           ├── emojiman-base.json
+│           ├── emojiman-energy.json
+│           ├── emojiman-executor.json
+│           ├── emojiman-game_data.json
+│           ├── emojiman-player_address.json
+│           ├── emojiman-player_at_position.json
+│           ├── emojiman-player_id.json
+│           ├── emojiman-position.json
+│           ├── emojiman-rps_type.json
+│           ├── emojiman-world.json
+│           └── manifest.json
+├── readme.md
+├── screenshot.png
+└── tree.txt
+
+23 directories, 108 files
